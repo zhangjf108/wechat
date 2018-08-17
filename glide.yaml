@@ -7,7 +7,7 @@ import:
 - package: github.com/bradfitz/gomemcache
   subpackages:
   - memcache
-- package: github.com/garyburd/redigo
+- package: github.com/gomodule/redigo
   version: v2.0.0
   subpackages:
   - redis
