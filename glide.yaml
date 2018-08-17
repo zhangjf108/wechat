@@ -1,0 +1,15 @@
+package: github.com/zhangjf108/wechat
+import:
+- package: github.com/astaxie/beego
+  version: v1.10.1
+  subpackages:
+  - context
+- package: github.com/bradfitz/gomemcache
+  subpackages:
+  - memcache
+- package: github.com/garyburd/redigo
+  version: v2.0.0
+  subpackages:
+  - redis
+- package: github.com/gin-gonic/gin
+  version: v1.3.0
